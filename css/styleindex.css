@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+}
+/*header*/
+.header .head-cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header .image img{
+    width: 50%;
+}
+
+.header .image{
+    display: flex;
+    justify-content: center
+}
+
+.header .word{
+    font-size: 30px;
+    text-align: center;
+    width: 400px;
+}
+
+/*navigation*/
+.menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #F17329;
+    padding: 10px 0;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Best seller content*/
+.sell-cont{
+    position: relative;
+    margin: 0px 27px;
+}
+
+.sell-cont h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sell-cont .img{
+    display: flex;
+    justify-content: center;
+}
+
+.sell-cont .img img{
+    width: 70%;
+}
+
+.sell-cont .img .img1, .sell-cont .img .img3{
+    margin-top: 100px;
+}
+
+.sell-cont .title{
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    width: 230px;
+    background-color: #E9852B;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    line-height: 25px;
+}
+
+.sell-cont .title p{
+    margin: 10px 0px;
+}
+
+/*Banner*/
+
+.banner img{
+    width: 100%;
+    margin: 20px 0px 30px 0px;
+}
+
+/*Sell Off*/
+.selloff h1{
+    text-align: center;
+}
+
+.selloff .info{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.selloff .info .sellinfo{
+    width: 400px;
+}
+
+.selloff .info .sellinfo h2{
+    color: #F07245;
+}
+
+/*List of Electric Motorcycles*/
+.listelec .img img{
+    width: 100%;
+}
+
+.listelec .img{
+    margin-left: 20px;
+}
+.listelec h1{
+    text-align: center;
+}
+
+.listelec .box{
+    display: flex;
+    gap: 20px;
+}
+
+.listelec .box .choose{
+    background-color: #E8E4E3;
+}
+
+.listelec .box .choose .title{
+    background-color: #0CB6AB;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.listelec .box .choose label{
+    margin: 0px 50px 0px 20px;
+    width: 100px;
+}
+
+.listelec .box .choose .input{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.listelec .box .choose .input select, .listelec .box .choose .input input{
+    height: 30px;
+    width: 200px;
+}
+
+.listelec .box .choose .input select{
+    width: 200px;
+}
+
+.listelec .box .choose .lastin input{
+    width: 350px;
+}
+
+.listelec .box .choose .buy{
+    text-align: center;
+    align-content: center;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #E77B0F;
+    margin-top: 30px;
+}
+
+.listelec .box .choose .buy p{
+    margin: 0;
+}
+
+.listelec .box .choose .lasttitle{
+    margin-top: 57px;
+}
+
+/*footer*/
+
+.footer {
+    margin-top: 40px;
+    background-color: #3F3D3E;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
